@@ -1,0 +1,11 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Your Presentation Title"
+  site-url: "https://cantinaloop.github.io/Hochschulseminare  "
+  
+format:
+  html:
+    theme: default

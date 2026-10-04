@@ -1,0 +1,1035 @@
+<!DOCTYPE html>
+<html lang="de-DE"><head>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-html/tabby.min.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/quarto-contrib/reveal-header-1.0.0/add_header.js" defer="true"></script>
+<link href="site_libs/quarto-contrib/reveal-header-1.0.0/add_header.css" rel="stylesheet">
+<script src="site_libs/quarto-contrib/sc-sb-title-1.0.0/sc_sb_title.js" defer="true"></script>
+<link href="site_libs/quarto-contrib/grid-no-htext-1.0.0/grid_no_htext.css" rel="stylesheet">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.10.18">
+
+  <meta name="author" content="Julian Popken">
+  <title>Your Presentation Title – EINFÜHRUNG</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="site_libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="site_libs/revealjs/dist/reveal.css">
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
+    }
+    /* CSS for citations */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+    }
+    .hanging-indent div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }  </style>
+  <link rel="stylesheet" href="site_libs/revealjs/dist/theme/quarto-6fb681a4d01bc4290acd21addd28092a.css">
+  <link href="site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="site_libs/revealjs/plugin/reveal-chalkboard/font-awesome/css/all.css" rel="stylesheet">
+  <link href="site_libs/revealjs/plugin/reveal-chalkboard/style.css" rel="stylesheet">
+  <link href="site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
+</head>
+<body class="quarto-light">
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide" data-background-color="#0FA3B1" data-footer="Test" class="quarto-title-block center">
+  <h1 class="title">EINFÜHRUNG</h1>
+  <p class="subtitle">Didaktik/Methodik Gesang</p>
+
+<div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Julian Popken
+</div>
+        <p class="quarto-title-affiliation">
+            HMTM Hannover
+          </p>
+    </div>
+</div>
+
+  <p class="date">13.10.2026</p>
+</section><section id="TOC">
+<nav role="doc-toc"> 
+<h2 id="toc-title">Inhalt</h2>
+<ul>
+<li class="fragment"><a href="#/herzlich-willkommen" id="/toc-herzlich-willkommen">Herzlich willkommen!</a></li>
+<li class="fragment"><a href="#/organisation" id="/toc-organisation">Organisation</a></li>
+<li class="fragment"><a href="#/semesterausblick" id="/toc-semesterausblick">Semesterausblick</a></li>
+<li class="fragment"><a href="#/einführung-didaktik" id="/toc-einführung-didaktik">Einführung Didaktik</a></li>
+<li class="fragment"><a href="#/einführung-methodik" id="/toc-einführung-methodik">Einführung Methodik</a></li>
+</ul>
+</nav>
+</section>
+<section>
+<section id="herzlich-willkommen" class="title-slide slide level2 center" data-background-color="#0FA3B1">
+<h2>Herzlich willkommen!</h2>
+
+</section>
+<section id="test" class="slide level4">
+<h4>Test</h4>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d155522.7769690091!2d9.766364198705007!3d48.380101280739225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sde!2sde!4v1789310076742!5m2!1sde!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" class="r-stretch">
+</iframe>
+</section>
+<section id="über-mich" class="slide level4 smaller">
+<h4>Über mich</h4>
+<p><strong>Dozent:</strong> Julian Popken</p>
+<ul>
+<li class="fragment">Geboren/aufgewachsen in Leer (Ostfriesland) <span class="emoji" data-emoji="teapot">🫖</span><span class="emoji" data-emoji="cow">🐮</span></li>
+</ul>
+<div class="fragment">
+<ul>
+<li>Studium:
+<ul>
+<li>Kirchen- und Schulmusik (HMDK Stuttgart)</li>
+<li>Bachelor Operngesang + Bachelor Gesang (HfM Karlsruhe)</li>
+<li>Master Gesang in freiberuflicher Tätigkeit (HMTM Hannover)</li>
+</ul></li>
+</ul>
+<ul>
+<li class="fragment">Lehre: HMTM Hannover, HfK Bremen, Universität Osnabrück (bis 2025)</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li>Kontakt:
+<ul>
+<li>Mail: <a href="mailto:Julian.Popken@hmtm-hannover.de">julian.popken@hmtm-hannover.de</a> <br></li>
+<li>Mobil (Signal/Whatsapp): <code>0170-7022541</code></li>
+</ul></li>
+</ul>
+</div>
+</section>
+<section id="section" class="title-slide slide level3 center" data-center="true">
+<h3></h3>
+<p>Stellen Sie sich kurz vor:</p>
+<ul>
+<li class="fragment">Name, Studiengang…</li>
+<li class="fragment">Schon Unterrichtserfahrung als LehrerIn gesammelt?</li>
+<li class="fragment">Haben Sie aktuell SchülerInnen?</li>
+<li class="fragment">Was haben Sie für Erwartungen an den Kurs?</li>
+<li class="fragment">Was interessiert Sie besonders? Gibt es Wunschthemen?</li>
+</ul>
+</section>
+</section>
+<section>
+<section id="organisation" class="title-slide slide level2 center" data-background-color="#0FA3B1">
+<h2>Organisation</h2>
+
+</section>
+<section id="didaktik-und-methodik-gesang-i-ii" class="slide level4 smaller">
+<h4>Didaktik und Methodik Gesang I + II</h4>
+<ul>
+<li class="fragment"><strong>Zeit/Raum</strong>: Wöchentlich Dienstag <strong>09:15-10:45</strong>, Hörsaal <strong>202</strong></li>
+<li class="fragment"><strong>Studiengänge</strong>:
+<ul>
+<li class="fragment"><strong>MA Gesang freiberuflich</strong> <br> (2-4 Semester Pflicht je nach Profil)</li>
+<li class="fragment"><strong>BA Gesang</strong> <br> (2 Semester für “Zusatzqualifikation Gesangspädagogik”)</li>
+</ul></li>
+<li class="fragment"><strong>Lehrform</strong>:
+<ul>
+<li class="fragment">Vorlesung/Seminar über 4 Semester
+<ul>
+<li class="fragment"><strong>Kursteil II</strong>: WS 26/27 - SS 27</li>
+<li class="fragment"><strong>Kursteil I</strong>: WS 27/28 - SS 28</li>
+</ul></li>
+<li class="fragment">Nicht-konsekutiv: Kursteile I + II bauen inhaltlich nicht grundlegend aufeinander auf</li>
+<li class="fragment">Einstieg jedes WS möglich</li>
+</ul></li>
+</ul>
+</section>
+<section id="didaktik-und-methodik-gesang-i-ii-1" class="slide level4 smaller">
+<h4>Didaktik und Methodik Gesang I + II</h4>
+<ul>
+<li class="fragment"><strong>Studienleistungen</strong>:
+<ul>
+<li class="fragment">Regelmäßige Teilnahme</li>
+<li class="fragment">Übernahme kleinerer Aufgaben für Seminarteil, z. B.:
+<ul>
+<li class="fragment">Verfassen und Vorstellen von Vorlesungsprotokollen</li>
+<li class="fragment">Präsentation kürzerer Referate</li>
+<li class="fragment">Mitarbeit in kleinen Semesterprojekten (z. B. Glossar, Übungssammlung etc.)</li>
+</ul></li>
+</ul></li>
+<li class="fragment"><strong>Prüfungsleistung</strong>
+<ul>
+<li class="fragment">Klausur nach jedem Kursteil (immer Ende Sommersemester):
+<ul>
+<li class="fragment">120 Min. “closed book”, benotet</li>
+<li class="fragment">Auswahl (ca. 30 Fragen) aus Katalog von ca. 90 bekannten Grundfragen</li>
+<li class="fragment">Pro Themenbereich zusätzlich 1-2 unbekannte Transferfragen</li>
+<li class="fragment">Grundlage: Vorlesungen, Folien, Protokolle</li>
+</ul></li>
+</ul></li>
+</ul>
+</section>
+<section id="weitere-kurse-im-modul-für-ma-freiberuflich" class="slide level4">
+<h4>Weitere Kurse im Modul (für MA freiberuflich)</h4>
+<ul>
+<li class="fragment"><p>Hospitation und Unterrichtspraxis I/II <br> (Prof.&nbsp;Böhm, Popken)</p></li>
+<li class="fragment"><p>Musikphysiologie (am IMMM) <br> (Prof.&nbsp;Dr.&nbsp;Lee, Dr.&nbsp;Worschech)</p></li>
+</ul>
+<div class="fragment">
+<p>Je nach Vorbildung:</p>
+<ul>
+<li class="fragment">Pädagogische Psychologie / Musikpädagogik <br> (Dr.&nbsp;Stamm)</li>
+</ul>
+</div>
+</section>
+<section id="fragen" class="slide level4">
+<h4>Fragen?</h4>
+<div class="tenor-gif-embed" data-postid="20634871" data-share-method="host" data-aspect-ratio="1.81818" data-width="100%">
+<a href="https://tenor.com/view/doing-the-math-thinking-gif-20634871">Doing The Math Thinking GIF</a>from <a href="https://tenor.com/search/doing+the+math-gifs">Doing The Math GIFs</a>
+</div>
+<script type="text/javascript" async="" src="https://tenor.com/embed.js"></script>
+</section></section>
+<section>
+<section id="semesterausblick" class="title-slide slide level2 center" data-background-color="#0FA3B1">
+<h2>Semesterausblick</h2>
+
+</section>
+<section id="maximal-inhalte-methodikdidaktik-ii-ws2627---ss27" class="slide level4">
+<h4>“Maximal”-Inhalte Methodik/Didaktik II (WS26/27 - SS27)</h4>
+<p><br></p>
+<div class="fragment">
+<p><strong>Didaktik</strong></p>
+</div>
+<div class="fragment">
+<div class="callout callout-none no-icon callout-titled callout-style-simple">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Akustische Voraussetzungen</strong></p>
+</div>
+<div class="callout-content">
+<p>u.a. Schallbegriff – Obertöne, Teiltöne, Harmonische etc. – Primärer Kehlkopfklang – Resonanzbegriff – Formanten – Vokaldreieck – Formantstrategien</p>
+</div>
+</div>
+</div>
+</div>
+<div class="fragment">
+<div class="callout callout-none no-icon callout-titled callout-style-simple">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Anatomie und Physiologie der Singstimme</strong></p>
+</div>
+<div class="callout-content">
+<p>u.a. Quelle-Filter-Modell (Fant u. a.) und seine Grenzen – Vertiefung: Atemkreislauf und -muskulatur – Vertiefung: Aufbau und Funktionen des Larynx – Aufbau und Funktion der Ansatzräume – “Stütz”-Begriff – Register – Stimmstörungen – Stimmfächer</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="maximal-inhalte-methodikdidaktik-ii-ws2627---ss27-1" class="slide level4">
+<h4>“Maximal”-Inhalte Methodik/Didaktik II (WS26/27 - SS27)</h4>
+<p><br></p>
+<div class="fragment">
+<p><strong>Methodik</strong></p>
+</div>
+<div class="fragment">
+<div class="callout callout-none no-icon callout-titled callout-style-simple">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Beobachtung und Auswertung des Unterrichts</strong></p>
+</div>
+<div class="callout-content">
+<p>Übungen diagnostisches Hören – technische Probleme erkennen und Funktionsebenen zuordnen – Einsingen und Übungen entwickeln – Entwickeln eigener Supervisionsmodelle – Erproben von achtsamer Unterrichts- und Feedbacksprache – Überblick über Techniken der CCM (“Contemporary Commercial Music”)</p>
+</div>
+</div>
+</div>
+</div>
+<div class="fragment">
+<div class="callout callout-none no-icon callout-titled callout-style-simple">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Planung des Unterrichts</strong></p>
+</div>
+<div class="callout-content">
+<p>Verfassen von Stundenentwürfen: Allgemeine/spezielle Unterrichtsvoraussetzungen – Formulieren von Grobzielen/Feinzielen – Didaktisch-methodische Analyse – Literaturauswahl</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="literaturempfehlungen" class="slide level4">
+<h4>Literaturempfehlungen</h4>
+<div class="columns">
+<div class="column fragment" style="width:33%;">
+<img data-src="https://images.thalia.media/-/BF2000-2000/9d3d2396811e474284c85af40b2aeeba/die-stimme-gebundene-ausgabe-bernhard-richter.jpeg">
+<div style="font-size: 25px">
+<span class="citation" data-cites="richter2014">Richter (<a href="#/quellen-medien" role="doc-biblioref" onclick="">2014</a>)</span>
+</div>
+</div><div class="column fragment" style="width:33%;">
+<img data-src="https://images.thalia.media/-/BF2000-2000/a9fdcbe1e03a4e1e9fb03e13598358a7/lehren-und-lernen-im-instrumentalunterricht-taschenbuch-anselm-ernst.jpeg">
+<div style="font-size: 25px; margin-top: 15px">
+<span class="citation" data-cites="ernst2013">Ernst (<a href="#/quellen-medien" role="doc-biblioref" onclick="">2013</a>)</span>
+</div>
+</div><div class="column fragment" style="width:33%;">
+<img data-src="https://bdg-online.org/wp-content/uploads/2025/06/lehrplan_gesang2025.jpg">
+<div style="font-size: 25px">
+<span class="citation" data-cites="vdm2025">VdM und BDG (<a href="#/quellen-medien" role="doc-biblioref" onclick="">2025</a>)</span>
+</div>
+</div></div>
+</section></section>
+<section>
+<section id="einführung-didaktik" class="title-slide slide level2 center" data-background-color="#0FA3B1">
+<h2>Einführung Didaktik</h2>
+
+</section>
+<section id="grob-gefragt-was-genau-ist" class="slide level4">
+<h4>Grob gefragt: Was genau ist…</h4>
+<p><br></p>
+<div class="fragment">
+<p><strong>Didaktik?</strong></p>
+<ul>
+<li class="fragment">Wissenschaft/Kunst des Lehrens und Lernens
+<ul>
+<li class="fragment">Leitfragen: “<strong><em>Was?</em></strong> <em>Wozu? Warum?</em>”</li>
+</ul></li>
+</ul>
+</div>
+<div class="fragment">
+<p><strong>Methodik?</strong></p>
+<ul>
+<li class="fragment">Kunst/Lehre des “Wegs zu den Zielen”
+<ul>
+<li class="fragment">Leitfragen: “<strong><em>Wie?</em></strong> <em>Auf welchem Weg?</em>”</li>
+</ul></li>
+</ul>
+</div>
+</section>
+<section id="was-macht-klassischen-gesang-aus" class="title-slide slide level3 center">
+<h3>Was macht klassischen Gesang aus?</h3>
+
+</section>
+<section id="was-macht-nicht-klassischen-gesang-aus" class="slide level4">
+<h4>Was macht (nicht-)klassischen Gesang aus?</h4>
+<iframe data-external="1" src="https://www.youtube.com/embed/B_ymY0xG0LI?si=pO3GQsFOLCAIdyRW&amp;start=907" width="100%" height="80%" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<div style="font-size: 20px; margin-top: -60px">
+<p><em>Moonchild - The List</em> <span class="citation" data-cites="nprmusic2019">(<a href="#/quellen-medien" role="doc-biblioref" onclick="">NPR Music 2019</a>)</span></p>
+</div>
+</section>
+<section id="was-macht-nicht-klassischen-gesang-aus-1" class="slide level4">
+<h4>Was macht (nicht-)klassischen Gesang aus?</h4>
+<iframe data-external="1" src="https://www.youtube.com/embed/AFgzzWT3zX4?si=M9Pi0FAL5KhpO1vB&amp;start=1949" width="100%" height="80%" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<div style="font-size: 20px; margin-top: -60px">
+<p><em>Le Mystère de Voix Bulgares - Ergen Deda</em> <span class="citation" data-cites="kexp2017">(<a href="#/quellen-medien" role="doc-biblioref" onclick="">KEXP 2017</a>)</span></p>
+</div>
+</section>
+<section id="was-macht-nicht-klassischen-gesang-aus-2" class="slide level4">
+<h4>Was macht (nicht-)klassischen Gesang aus?</h4>
+<iframe data-external="1" src="https://www.youtube.com/embed/rkNS0iWKHOM?si=N5KUuhN0a7Y5qn4Z&amp;;start=142" width="100%" height="80%" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<div style="font-size: 20px; margin-top: -60px">
+<p>Wagner: <em>Götterdämmerung - 2. Aufzug, 3. Szene</em> <span class="citation" data-cites="staatsoperstuttgart2023">(<a href="#/quellen-medien" role="doc-biblioref" onclick="">Staatsoper Stuttgart 2023</a>)</span></p>
+</div>
+</section>
+<section id="section-1" class="slide level4">
+<h4></h4>
+<p><strong>Was macht klassischen Gesang aus?</strong></p>
+<div class="fragment">
+<p><br></p>
+<p>besser:</p>
+</div>
+<div class="fragment">
+<p><br></p>
+<p><strong>Was macht den <span style="color: forestgreen;">westeuropäischen Kunstgesang</span> aus?</strong></p>
+</div>
+</section>
+<section id="section-2" class="slide level4 smaller">
+<h4></h4>
+<div class="quarto-figure quarto-figure-left">
+<figure>
+<p><a href="https://www.kunstkopie.de/kunst/gerrit_van_honthorst/Anbetung-der-Hirten.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img data-src="https://www.kunstkopie.de/kunst/gerrit_van_honthorst/Anbetung-der-Hirten.jpg" class="quarto-figure quarto-figure-left" style="width:65.0%"></a></p>
+</figure>
+</div>
+<div style="font-size: 20px; margin-top: -40px">
+<p><span class="citation" data-cites="honthorst1622">Honthorst (<a href="#/quellen-medien" role="doc-biblioref" onclick="">1622</a>)</span> - Die Anbetung des Kindes</p>
+</div>
+</section>
+<section class="slide level4">
+
+<div class="quarto-figure quarto-figure-left">
+<figure>
+<p><a href="https://cdn.thenetexperts.info/image/authenticated/s--njUtcYpZ--/q_80/artworks/GERARD-VAN-HONTHORST-1592_DER-LIEDERLICHE-STUDENT-391_206690_CC-BY-SA_BSTGS.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img data-src="https://cdn.thenetexperts.info/image/authenticated/s--njUtcYpZ--/q_80/artworks/GERARD-VAN-HONTHORST-1592_DER-LIEDERLICHE-STUDENT-391_206690_CC-BY-SA_BSTGS.jpg" class="quarto-figure quarto-figure-left" style="width:65.0%"></a></p>
+</figure>
+</div>
+<div style="font-size: 20px; margin-top: -50px">
+<p><span class="citation" data-cites="honthorst1625">Honthorst (<a href="#/quellen-medien" role="doc-biblioref" onclick="">1625</a>)</span> - Der liederliche Student</p>
+</div>
+</section>
+<section id="chiaroscuro" class="slide level4">
+<h4>Chiaroscuro</h4>
+<ul>
+<li class="fragment">ital. für “helldunkel” / fr. <em>clair-obscur</em></li>
+<li class="fragment">Gestaltungsmittel in der Malerei der Spätrenaissance und des Barock</li>
+<li class="fragment">Dort: Starke Hell-Dunkel-Kontraste, dadurch quasi “leuchtender” Effekt</li>
+</ul>
+<div class="fragment">
+<p>Übertragung als <strong>Stimmideal</strong> auf den Belcanto</p>
+</div>
+</section>
+<section id="was-macht-den-westeuropäischen-kunstgesang-aus" class="slide level4 smaller">
+<h4>Was macht den westeuropäischen Kunstgesang aus?</h4>
+<ul>
+<li class="fragment">Belcanto-Ideale (seit Barock!):
+<ul>
+<li class="fragment">Grund- und Obertonreichtum (<em>chiaroscuro</em>)</li>
+<li class="fragment">Verzierter Gesang (<em>canto fiorito</em>)</li>
+<li class="fragment">Legato / Vibrato u. a.</li>
+</ul></li>
+<li class="fragment">Verstärkung jener Obertöne, die im Orchesterklang wenig vorhanden sind:
+<ul>
+<li class="fragment">Generell Tiefstellung der Kehle</li>
+<li class="fragment">Große Weite im Ansatzrohr</li>
+<li class="fragment">Formantstrategien etc.</li>
+</ul></li>
+</ul>
+<div class="fragment">
+<p><strong>Wichtig</strong>: Ursprünglich “abendländisch” = Westeuropäische Perspektive!</p>
+</div>
+</section>
+</section>
+<section>
+<section id="einführung-methodik" class="title-slide slide level2 center" data-background-color="#0FA3B1">
+<h2>Einführung Methodik</h2>
+
+</section>
+<section id="singen-und-gesangslehre-als-hochkomplexes-system" class="slide level4">
+<h4>Singen und Gesangslehre als hochkomplexes System</h4>
+<div class="fragment">
+<div class="callout callout-warning callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Methodik: Gesangslehre muss eine Vielzahl verschiedener Perspektiven zulassen.</strong></p>
+</div>
+<div class="callout-content">
+<ul>
+<li class="fragment">Gesang als hochkomplexes System: Wir müssen vereinfachen (können).</li>
+<li class="fragment">Sehr viele Aspekte sind nicht abschließend erforscht.</li>
+<li class="fragment">In vielen Bereichen gibt es kein klares “richtig” oder “falsch”.</li>
+<li class="fragment">Ständiges Üben: Unklarheiten einordnen, Widersprüchlichkeiten aushalten.</li>
+<li class="fragment">Offen, neugierig und respektvoll ggü. anderen, evtl. abweichenden Lehrmeinungen.</li>
+<li class="fragment">Am Ende gilt: Wer nachhaltig gut singt/lehrt, hat “recht”.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="fragment">
+<p><br></p>
+<p><em>“Der Schüler ist die Methode”</em> <span style="font-size: 20px"> (Franziska Martienssen-Lohmann)<a href="#/footnotes" class="footnote-ref" id="fnref1" role="doc-noteref" data-footnote-href="#/fn1" onclick=""><sup>1</sup></a></span></p>
+</div>
+<aside></aside></section>
+<section id="quellen-medien" class="slide level4 scrollable smaller" data-visibility="uncounted">
+<h4>Quellen / Medien</h4>
+<!--###### Monografien 
+::: {#refs-monografien}
+:::
+
+###### Medien
+::: {#refs-medien}
+:::-->
+
+
+<div class="reveal-header">
+<div class="header-logo" data-footer-logo-link="https://hmtm-hannover.de">
+<img data-src="">
+</div>
+<div class="sc-title">
+<p> </p>
+</div>
+<div class="header-text">
+<p> </p>
+</div>
+<div class="sb-title">
+<p> </p>
+</div>
+</div>
+<div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-ernst2013" class="csl-entry" role="listitem">
+Ernst, Anselm. 2013. <em>Lehren und Lernen im Instrumentalunterricht: ein pädagogisches Handbuch für die Praxis</em>. Schott Music.
+</div>
+<div id="ref-honthorst1622" class="csl-entry" role="listitem">
+Honthorst, Gerard van. 1622. <em>Anbetung Der <span>Hirten</span></em>. <a href="https://prometheus.uni-koeln.de/de/image/bochum_kgi-eb5d10956220a1783b62b09293d66db9a8885875">https://prometheus.uni-koeln.de/de/image/bochum_kgi-eb5d10956220a1783b62b09293d66db9a8885875</a>.
+</div>
+<div id="ref-honthorst1625" class="csl-entry" role="listitem">
+Honthorst, Gerard van. 1625. <em>Der Liederliche <span>Student</span></em>. <a href="https://www.sammlung.pinakothek.de/de/artwork/wq4jXaELWo">https://www.sammlung.pinakothek.de/de/artwork/wq4jXaELWo</a>.
+</div>
+<div id="ref-kexp2017" class="csl-entry" role="listitem">
+KEXP. 2017. <em>Le <span>Mystere</span> Des <span>Voix Bulgares</span> - <span>Full Performance</span> (<span>Live</span> on <span>KEXP</span>)</em>. Regie von KEXP. <a href="https://www.youtube.com/watch?v=AFgzzWT3zX4">https://www.youtube.com/watch?v=AFgzzWT3zX4</a>.
+</div>
+<div id="ref-nprmusic2019" class="csl-entry" role="listitem">
+NPR Music. 2019. <em>Moonchild: <span>NPR Music Tiny Desk Concert</span></em>. <a href="https://www.youtube.com/watch?v=B_ymY0xG0LI">https://www.youtube.com/watch?v=B_ymY0xG0LI</a>.
+</div>
+<div id="ref-richter2014" class="csl-entry" role="listitem">
+Richter, Bernhard. 2014. <em>Die Stimme: Grundlagen, künstlerische Praxis, Gesunderhaltung</em>. 2., durchges. Aufl. Henschel.
+</div>
+<div id="ref-staatsoperstuttgart2023" class="csl-entry" role="listitem">
+Staatsoper Stuttgart. 2023. <em>Richard <span>Wagner</span>: <span>Götterdämmerung</span> – <span>II</span>. <span>Aufzug</span>, <span>III</span>. <span>Szene</span></em>. <a href="https://www.youtube.com/watch?v=rkNS0iWKHOM">https://www.youtube.com/watch?v=rkNS0iWKHOM</a>.
+</div>
+<div id="ref-vdm2025" class="csl-entry" role="listitem">
+VdM, und BDG, Hrsg. 2025. <em>Lehrplan Gesang: Klassik und Populäre Stile</em>. 1. Auflage. Verband deutscher Musikschulen.
+</div>
+</div>
+</section></section>
+<section id="footnotes" class="footnotes footnotes-end-of-document smaller scrollable" role="doc-endnotes"><h4>Fußnoten</h4>
+
+<ol>
+<li id="fn1"><p>Martienssen-Lohmann, Franziska: Ausbildung der Gesangsstimme. Rudolf Erdmann Musikverlag, Wiesbaden 1957, S. 17. Auch Peter Heilbut (1920-2005) zugeschrieben.</p></li>
+</ol>
+</section>
+    </div>
+  <div class="quarto-auto-generated-content" style="display: none;">
+<p><img src="assets/00-HMTMH-Logo-1.png" class="slide-logo"></p>
+<div class="footer footer-default">
+<p>Einführung Didaktik/Methodik Gesang | 13.10.2026 | Julian Popken</p>
+</div>
+</div></div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="site_libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="site_libs/revealjs/plugin/reveal-chalkboard/plugin.js"></script>
+  <script src="site_libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="site_libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="site_libs/revealjs/plugin/search/search.js"></script>
+  <script src="site_libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="site_libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': true,
+'previewLinksAuto': false,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'jumpToSlide': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"8\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'chalkboard': {"buttons":false},
+'smaller': false,
+ 
+        // Display controls in the bottom right corner
+        controls: false,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: true,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'bottom-right',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: 'c',
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: false,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'none',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'fade',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1050,
+
+        height: 700,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        math: {
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealChalkboard, QuartoSupport,
+
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    <script id="quarto-html-after-body" type="application/javascript">
+      window.document.addEventListener("DOMContentLoaded", function (event) {
+        const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+        tabsets.forEach(function(tabset) {
+          const tabby = new Tabby('#' + tabset.id);
+        });
+        const isCodeAnnotation = (el) => {
+          for (const clz of el.classList) {
+            if (clz.startsWith('code-annotation-')) {                     
+              return true;
+            }
+          }
+          return false;
+        }
+        const onCopySuccess = function(e) {
+          // button target
+          const button = e.trigger;
+          // don't keep focus
+          button.blur();
+          // flash "checked"
+          button.classList.add('code-copy-button-checked');
+          var currentTitle = button.getAttribute("title");
+          button.setAttribute("title", "Kopiert");
+          let tooltip;
+          if (window.bootstrap) {
+            button.setAttribute("data-bs-toggle", "tooltip");
+            button.setAttribute("data-bs-placement", "left");
+            button.setAttribute("data-bs-title", "Kopiert");
+            tooltip = new bootstrap.Tooltip(button, 
+              { trigger: "manual", 
+                customClass: "code-copy-button-tooltip",
+                offset: [0, -8]});
+            tooltip.show();    
+          }
+          setTimeout(function() {
+            if (tooltip) {
+              tooltip.hide();
+              button.removeAttribute("data-bs-title");
+              button.removeAttribute("data-bs-toggle");
+              button.removeAttribute("data-bs-placement");
+            }
+            button.setAttribute("title", currentTitle);
+            button.classList.remove('code-copy-button-checked');
+          }, 1000);
+          // clear code selection
+          e.clearSelection();
+        }
+        const getTextToCopy = function(trigger) {
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+        }
+        const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+          text: getTextToCopy
+        });
+        clipboard.on('success', onCopySuccess);
+        if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+          const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+            text: getTextToCopy,
+            container: window.document.getElementById('quarto-embedded-source-code-modal')
+          });
+          clipboardModal.on('success', onCopySuccess);
+        }
+          var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+          var mailtoRegex = new RegExp(/^mailto:/);
+            var filterRegex = new RegExp("https:\/\/cantinaloop\.github\.io\/Hochschulseminare  ");
+          var isInternal = (href) => {
+              return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+          }
+          // Inspect non-navigation links and adorn them if external
+         var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+          for (var i=0; i<links.length; i++) {
+            const link = links[i];
+            if (!isInternal(link.href)) {
+              // undo the damage that might have been done by quarto-nav.js in the case of
+              // links that we want to consider external
+              if (link.dataset.originalHref !== undefined) {
+                link.href = link.dataset.originalHref;
+              }
+                // target, if specified
+                link.setAttribute("target", "_blank");
+                if (link.getAttribute("rel") === null) {
+                  link.setAttribute("rel", "noopener");
+                }
+            }
+          }
+        function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+          const config = {
+            allowHTML: true,
+            maxWidth: 500,
+            delay: 100,
+            arrow: false,
+            appendTo: function(el) {
+                return el.closest('section.slide') || el.parentElement;
+            },
+            interactive: true,
+            interactiveBorder: 10,
+            theme: 'light-border',
+            placement: 'bottom-start',
+          };
+          if (contentFn) {
+            config.content = contentFn;
+          }
+          if (onTriggerFn) {
+            config.onTrigger = onTriggerFn;
+          }
+          if (onUntriggerFn) {
+            config.onUntrigger = onUntriggerFn;
+          }
+            config['offset'] = [0,0];
+            config['maxWidth'] = 700;
+          window.tippy(el, config); 
+        }
+        const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+        for (var i=0; i<noterefs.length; i++) {
+          const ref = noterefs[i];
+          tippyHover(ref, function() {
+            // use id or data attribute instead here
+            let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+            try { href = new URL(href).hash; } catch {}
+            const id = href.replace(/^#\/?/, "");
+            const note = window.document.getElementById(id);
+            if (note) {
+              return note.innerHTML;
+            } else {
+              return "";
+            }
+          });
+        }
+        const findCites = (el) => {
+          const parentEl = el.parentElement;
+          if (parentEl) {
+            const cites = parentEl.dataset.cites;
+            if (cites) {
+              return {
+                el,
+                cites: cites.split(' ')
+              };
+            } else {
+              return findCites(el.parentElement)
+            }
+          } else {
+            return undefined;
+          }
+        };
+        var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+        for (var i=0; i<bibliorefs.length; i++) {
+          const ref = bibliorefs[i];
+          const citeInfo = findCites(ref);
+          if (citeInfo) {
+            tippyHover(citeInfo.el, function() {
+              var popup = window.document.createElement('div');
+              citeInfo.cites.forEach(function(cite) {
+                var citeDiv = window.document.createElement('div');
+                citeDiv.classList.add('hanging-indent');
+                citeDiv.classList.add('csl-entry');
+                var biblioDiv = window.document.getElementById('ref-' + cite);
+                if (biblioDiv) {
+                  citeDiv.innerHTML = biblioDiv.innerHTML;
+                }
+                popup.appendChild(citeDiv);
+              });
+              return popup.innerHTML;
+            });
+          }
+        }
+      });
+      </script>
+    <script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+    (function() {
+      let previousOnload = window.onload;
+      window.onload = () => {
+        if (previousOnload) {
+          previousOnload();
+        }
+        lightboxQuarto.on('slide_before_load', (data) => {
+          const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+          const href = trigger.getAttribute('href');
+          if (href !== null) {
+            const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+            if (imgEl !== null) {
+              const srcAttr = imgEl.getAttribute("src");
+              if (srcAttr && srcAttr.startsWith("data:")) {
+                slideConfig.href = srcAttr;
+              }
+            }
+          } 
+        });
+      
+        lightboxQuarto.on('slide_after_load', (data) => {
+          const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(slideNode);
+          }
+        });
+      
+      };
+      
+    })();
+              </script>
+    
+
+</body></html>
