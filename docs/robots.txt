@@ -1,1 +1,1 @@
-Sitemap: https://cantinaloop.github.io/Hochschulseminare  /sitemap.xml
+Sitemap: https://cantinaloop.github.io/website-test/sitemap.xml

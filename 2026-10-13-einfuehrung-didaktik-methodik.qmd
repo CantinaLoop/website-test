@@ -13,6 +13,7 @@ bibliography: references.bib
     #medien: medien.bib
 format: 
    revealjs:
+       show-notes: false
        lang: de-DE
        title-slide-attributes:
          data-background-color: "#0FA3B1"
@@ -63,6 +64,10 @@ filters:
 #### Test
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d155522.7769690091!2d9.766364198705007!3d48.380101280739225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sde!2sde!4v1789310076742!5m2!1sde!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" class="r-stretch"></iframe>
+
+:::{.notes}
+Dies ist ein Test!
+:::
 
 #### Über mich {.smaller}
 
