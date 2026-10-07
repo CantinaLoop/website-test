@@ -3,8 +3,8 @@ project:
   output-dir: docs
 
 website:
-  title: "Your Presentation Title"
-  site-url: "https://cantinaloop.github.io/website-test"
+  title: Präsentation Gesang Erstifahrt FüBa
+  site-url: "https://cantinaloop.github.io/Hochschulseminare  "
   
 format:
   html:

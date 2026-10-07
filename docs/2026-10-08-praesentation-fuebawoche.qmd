@@ -1,0 +1,169 @@
+---
+title: GESANG IM FÜBA
+subtitle: Einführung für Haupt- und Nebenfächer
+author: Matthias Minnich | Julian Popken
+institute: HMTM Hannover
+date: 08 10 2026
+date-format: "DD.MM.YYYY"
+from: markdown+emoji
+bibliography: references.bib
+format: 
+   revealjs:
+       lang: de-DE
+       title-slide-attributes:
+         data-background-color: "#0FA3B1"
+         data-footer: Test
+       #width: 1920
+       #height: 1020
+       slide-number: c
+       slide-level: 4
+       sc-sb-title: true
+       chalkboard: 
+         buttons: false
+       #subtitle-as-header: true
+       #navigation-mode: vertical
+       controls-layout: bottom-right
+       controls-tutorial: true
+       toc: true
+       toc-depth: 2
+       toc-title: Inhalt
+       theme: hmtmh
+       #transition: slide
+       #transition-speed: fast
+       background-transition: fade
+       incremental: true
+       logo: assets/00-HMTMH-Logo-1.png
+       footer: Einführung Gesang im FüBa | 08.10.2026 | Minnich, Popken
+       footer-logo-link: https://hmtm-hannover.de
+       #header: Einführung Didaktik/Methodik
+       #header-logo: Medien/00-HMTMH-Logo-1.png
+       #header-logo-link: https://hmtm-hannover.de
+       auto-stretch: true
+       #center: true
+       #cap-location: margin
+       #link-external-icon: true
+       link-external-newwindow: true
+       reference-location: document
+       
+reveal-plugins:
+  - RevealConfetti
+filters:
+  - reveal-header
+---
+
+### Über uns...
+
+![](https://static.wikia.nocookie.net/muppet/images/d/de/StatlerWaldorf-Box.jpg/revision/latest/scale-to-width-down/1000?cb=20230320171827)
+
+:::{style="font-size: 20px; margin-top: -30px"}
+(Symbolbild)
+:::
+
+## Was macht klassischen/populären Gesang aus? {background-color="#0FA3B1"}
+
+#### Was macht klassischen/populären Gesang aus?
+
+{{< video https://www.youtube.com/embed/B_ymY0xG0LI?si=pO3GQsFOLCAIdyRW&amp;start=907 width="100%" height="80%" >}}
+
+:::{style="font-size: 20px; margin-top: -60px"}
+*Moonchild - The List* [@nprmusic2019]
+:::
+
+---
+
+#### Was macht klassischen/populären Gesang aus?
+
+{{< video https://www.youtube-nocookie.com/embed/AFgzzWT3zX4?si=M9Pi0FAL5KhpO1vB&amp;start=1949 width="100%" height="80%" >}}
+
+:::{style="font-size: 20px; margin-top: -60px"}
+*Le Mystère de Voix Bulgares - Ergen Deda* [@kexp2017]
+:::
+
+---
+
+#### Was macht klassischen/populären Gesang aus?
+
+{{< video https://youtu.be/rkNS0iWKHOM?si=N5KUuhN0a7Y5qn4Z&;start=142 width="100%" height="80%" poster="https://youtube.com" >}}
+
+:::{style="font-size: 20px; margin-top: -60px"}
+Wagner: *Götterdämmerung - 2. Aufzug, 3. Szene* [@staatsoperstuttgart2023]
+:::
+
+---
+
+#### Chiaroscuro
+
+![](https://cdn.thenetexperts.info/image/authenticated/s--njUtcYpZ--/q_80/artworks/GERARD-VAN-HONTHORST-1592_DER-LIEDERLICHE-STUDENT-391_206690_CC-BY-SA_BSTGS.jpg){fig-align="left" .lightbox width=65%}
+
+:::{style="font-size: 20px; margin-top: -50px"}
+@honthorst1625 - Der liederliche Student
+:::
+
+#### Blick aufs Instrument
+
+{{< video https://www.youtube.com/watch?v=3j92lXSwJHY width="100%" height="80%" poster="https://youtube.com" >}}
+
+:::{style="font-size: 20px; margin-top: -60px"}
+Ensemblegesang während flexibler Laryngoskopie [@polyphonia2019]
+:::
+
+#### Die Stimme:<br>Ein Instrument - Verschiedene Spielarten {.smaller}
+
+::::{.columns}
+
+:::{.column width="50%" .fragment}
+**Klassik**
+
+- Unverstärkt
+- Überwiegend klanggesteuert
+- Klare, dichte Phonationsart
+- Registerausgleich
+- *Belcanto*-Ideale
+   - *Chiaroscuro* 
+   - *Legato*- und Koloraturfähigkeit
+   - meistens durchgängiges Vibrato
+:::
+
+:::{.column width="50%" .fragment}
+**"Contemporary commercial music"** (CCM)
+
+. . .
+
+(sehr **stilabhängig**):
+
+- Verstärkt (in der Regel)
+- Überwiegend textgesteuert
+- Neben "klassischer" auch luftige/verhauchte Phonation etc.
+- Neben Registerausgleich auch Registerbetonung/-trennung
+- Vielfältige Gesangstechniken/Stilmittel:
+   - Twang, Belt, Vocal Fry, Growl, Flips etc.
+   - Scat, Improvisation, Distortion etc.
+
+:::
+
+::::
+
+## Was bringt Ihnen Gesang als Fach? {background-color="#0FA3B1"}
+
+## Organisatorisches {background-color="#0FA3B1"}
+
+#### Stichpunkte Gesang im FüBa
+
+- Obligatorisch (mind. 4 Semester)
+
+- Vertiefung möglich (Schwerpunktfach, Zuwahlfach u. a.)
+
+- **Offenes Podium** bei Matthias Minnich: **Do, 14-15 Uhr** **Raum 202** (HF, NF nach Absprache)
+
+- Korrepetition (HF, NF nach Absprache)
+
+- Italienischunterricht Mo, 13-14 Uhr, Cortellaro
+
+## Fragen?
+
+<div class="tenor-gif-embed" data-postid="20634871" data-share-method="host" data-aspect-ratio="1.81818" data-width="100%"><a href="https://tenor.com/view/doing-the-math-thinking-gif-20634871">Doing The Math Thinking GIF</a>from <a href="https://tenor.com/search/doing+the+math-gifs">Doing The Math GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+
+
+## Singen! {background-color="#0FA3B1"}
+
+#### Quellen / Medien {.scrollable .smaller data-visibility="uncounted"}

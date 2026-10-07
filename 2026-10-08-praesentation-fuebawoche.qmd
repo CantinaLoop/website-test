@@ -32,7 +32,7 @@ format:
        #transition-speed: fast
        background-transition: fade
        incremental: true
-       logo: medien/00-HMTMH-Logo-1.png
+       logo: assets/00-HMTMH-Logo-1.png
        footer: Einführung Gesang im FüBa | 08.10.2026 | Minnich, Popken
        footer-logo-link: https://hmtm-hannover.de
        #header: Einführung Didaktik/Methodik
@@ -51,7 +51,13 @@ filters:
   - reveal-header
 ---
 
-## Über uns... {background-color="#0FA3B1"}
+### Über uns...
+
+![](https://static.wikia.nocookie.net/muppet/images/d/de/StatlerWaldorf-Box.jpg/revision/latest/scale-to-width-down/1000?cb=20230320171827)
+
+:::{style="font-size: 20px; margin-top: -30px"}
+(Symbolbild)
+:::
 
 ## Was macht klassischen/populären Gesang aus? {background-color="#0FA3B1"}
 
@@ -83,6 +89,24 @@ filters:
 Wagner: *Götterdämmerung - 2. Aufzug, 3. Szene* [@staatsoperstuttgart2023]
 :::
 
+---
+
+#### Chiaroscuro
+
+![](https://cdn.thenetexperts.info/image/authenticated/s--njUtcYpZ--/q_80/artworks/GERARD-VAN-HONTHORST-1592_DER-LIEDERLICHE-STUDENT-391_206690_CC-BY-SA_BSTGS.jpg){fig-align="left" .lightbox width=65%}
+
+:::{style="font-size: 20px; margin-top: -50px"}
+@honthorst1625 - Der liederliche Student
+:::
+
+#### Blick aufs Instrument
+
+{{< video https://www.youtube.com/watch?v=3j92lXSwJHY width="100%" height="80%" poster="https://youtube.com" >}}
+
+:::{style="font-size: 20px; margin-top: -60px"}
+Ensemblegesang während flexibler Laryngoskopie [@polyphonia2019]
+:::
+
 #### Die Stimme:<br>Ein Instrument - Verschiedene Spielarten {.smaller}
 
 ::::{.columns}
@@ -91,7 +115,7 @@ Wagner: *Götterdämmerung - 2. Aufzug, 3. Szene* [@staatsoperstuttgart2023]
 **Klassik**
 
 - Unverstärkt
-- Klanggesteuert
+- Überwiegend klanggesteuert
 - Klare, dichte Phonationsart
 - Registerausgleich
 - *Belcanto*-Ideale
@@ -129,7 +153,7 @@ Wagner: *Götterdämmerung - 2. Aufzug, 3. Szene* [@staatsoperstuttgart2023]
 
 - Vertiefung möglich (Schwerpunktfach, Zuwahlfach u. a.)
 
-- "Aulastunde" bei Matthias Minnich Do, 14-15 Uhr Raum 202 (HF, NF nach Absprache)
+- **Offenes Podium** bei Matthias Minnich: **Do, 14-15 Uhr** **Raum 202** (HF, NF nach Absprache)
 
 - Korrepetition (HF, NF nach Absprache)
 
