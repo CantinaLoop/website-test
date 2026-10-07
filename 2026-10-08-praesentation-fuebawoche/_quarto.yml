@@ -1,0 +1,11 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: Präsentation Gesang Erstifahrt FüBa
+  site-url: "https://cantinaloop.github.io/Hochschulseminare  "
+  
+format:
+  html:
+    theme: default
