@@ -61,7 +61,7 @@ filters:
 
 ## Was macht klassischen/populären Gesang aus? {background-color="#0FA3B1"}
 
-#### Was macht klassischen/populären Gesang aus?
+####
 
 {{< video https://www.youtube.com/embed/B_ymY0xG0LI?si=pO3GQsFOLCAIdyRW&amp;start=907 width="100%" height="80%" >}}
 
@@ -71,8 +71,6 @@ filters:
 
 ---
 
-#### Was macht klassischen/populären Gesang aus?
-
 {{< video https://www.youtube-nocookie.com/embed/AFgzzWT3zX4?si=M9Pi0FAL5KhpO1vB&amp;start=1949 width="100%" height="80%" >}}
 
 :::{style="font-size: 20px; margin-top: -60px"}
@@ -80,8 +78,6 @@ filters:
 :::
 
 ---
-
-#### Was macht klassischen/populären Gesang aus?
 
 {{< video https://youtu.be/rkNS0iWKHOM?si=N5KUuhN0a7Y5qn4Z&;start=142 width="100%" height="80%" poster="https://youtube.com" >}}
 
